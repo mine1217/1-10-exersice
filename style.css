@@ -72,3 +72,24 @@ footer {
     height: 50px;
     background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+    .feature {
+        width: 100%;
+        display: block;
+    }
+
+    .feature-item:nth-child(n) {
+        overflow: hidden;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+    .feature-item:last-child {
+        width: 90%;
+        margin-bottom: 0px;
+    }
+
+
+}
